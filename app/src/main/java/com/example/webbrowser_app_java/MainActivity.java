@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         webView = findViewById(R.id.webView);
         editText = findViewById(R.id.editText);
+        searchButton = findViewById(R.id.button);
+
     }
 }
