@@ -3,6 +3,7 @@ package com.example.webbrowser_app_java;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
@@ -20,5 +21,11 @@ public class MainActivity extends AppCompatActivity {
         editText = findViewById(R.id.editText);
         searchButton = findViewById(R.id.button);
 
+        searchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
