@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String url = editText.getText().toString();
+                webView.loadUrl(url);
             }
         });
     }
