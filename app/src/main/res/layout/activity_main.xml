@@ -15,4 +15,15 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="78dp"
         android:layout_marginEnd="0dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 </RelativeLayout>
