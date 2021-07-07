@@ -24,5 +24,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="169dp"
         android:ems="10"
+        android:hint="Enter any url to search."
         android:inputType="textPersonName" />
 </RelativeLayout>
