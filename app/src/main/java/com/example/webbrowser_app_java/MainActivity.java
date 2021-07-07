@@ -21,12 +21,9 @@ public class MainActivity extends AppCompatActivity {
         editText = findViewById(R.id.editText);
         searchButton = findViewById(R.id.button);
 
-        searchButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String url = editText.getText().toString();
-                webView.loadUrl(url);
-            }
+        searchButton.setOnClickListener(v -> {
+            String url = editText.getText().toString();
+            webView.loadUrl(url);
         });
     }
 }
